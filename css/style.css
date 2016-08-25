@@ -1,0 +1,182 @@
+body {
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 15px;
+ 	/*line-height: 1;*/
+ 	/*text-align: center;*/
+ 	background-color: #fff;
+ }
+
+ header a {
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	margin-bottom: 0px;
+ 	margin-left: 20px;
+ 	color: navy;
+ 	font-weight: 400;
+	line-height: 30px;
+ }
+
+ header a:hover {
+ 	color: #FFCC2E;
+ }
+
+.header_image img {
+	width: 50%;
+	height: auto;
+	display: block;
+	padding: 1em;
+	background: no-repeat;
+}
+
+.header_image img:hover {
+	width: 50%;
+	height: auto;
+	display: block;
+	padding: 1em;
+	background: url("../images/jk_logo_hover.png") no-repeat;
+}
+
+/* h1 {
+ 	margin-top: 12px;
+ 	line-height: 26px;
+ 	padding: 20px;
+ }
+
+ h1:hover {
+ 	border-bottom: solid 3px yellow;
+ }*/
+
+ a {
+ 	text-decoration: none;
+ }
+
+#header {
+	max-width: 100%;
+	padding: 1.25em;
+	/*text-align: center;
+	/*z-index: 99;*/
+}
+
+/*.header_image img {
+ 	width: 5%;
+ 	height: auto;
+ 	display: inline-block;
+ 	padding: 2em;
+ 	text-align: center;
+}
+
+.header_image img:hover {
+	border-bottom: solid 2px #fff;
+}*/
+
+ .navigation {
+ 	padding: 10px;
+ 	float: right;
+ 	z-index: 2;
+ }
+
+nav a {
+ 	font-size: 1.25em;
+ 	text-decoration: none;
+ 	padding: .75em;
+ 	color: #000;
+ }
+
+ nav a:hover {
+ 	color: yellow;
+ }
+
+ .firstrow {
+ 	/*float: left;*/
+ 	width: 100%;
+ 	column-count: 4;
+ 	column-gap:2vw;
+ 	height: 25.2vw;
+ 	margin-top: 80px;
+ 	/*position: relative;*/
+ 	/*text-align: center;*/
+ }
+
+ .firstrow img {
+ 	width: 100%;
+ 	height: auto;
+ 	position: relative;
+ }
+
+ .thumbnail img:hover {
+ 	opacity: .1;
+ }
+
+ .secondrow {
+ 	width: 100%;
+ 	line-height: 0;
+ 	column-count: 4;
+ 	column-gap:2vw;
+ 	height: 25.2vw;
+ 	margin-top: 80px;
+ }
+
+ .secondrow img {
+ 	width: 100%;
+ 	height: auto;
+ 	position: relative;
+ }
+
+ .thirdrow {
+ 	width: 100%;
+ 	column-count: 4;
+ 	column-gap:2vw;
+ 	height: 25.2vw;
+ 	margin-top: 80px;
+ }
+
+ .thirdrow img {
+ 	width: 100%;
+ 	height: auto;
+ 	position: relative;
+ }
+
+ /*.home {
+ 	column-count: 4;
+ 	column-gap: 2vw;
+ 	line-height: 0;
+ }*/
+
+ #content_containter {
+ 	clear: both;
+ 	width: 400px;
+ 	padding: 4em 2em 0 2em;
+ 	position: relative;
+ 	text-align: center;
+ 	overflow: none;
+ 	z-index: 3;
+ }
+
+ span .title {
+ 	text-align: center;
+ 	font-size: 12px;
+ 	font-style: bold;
+ }
+
+ .clearfix:after {
+ 	clear: both;
+ }
+
+footer {
+	clear: both;
+	content: "";
+	text-align: center;
+	padding: 40px;
+}
+
+/*.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}*/
+
+
+
+
+
+
